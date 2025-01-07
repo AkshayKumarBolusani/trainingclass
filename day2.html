@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let a = "Akshay";
+        console.log(a);
+        document.write("hi "+a);
+        console.log("hi "+a);
+        document.write('hi '+a);
+        console.log('hi '+a);
+        document.write(`hi ${a}`);
+        console.log(`hi ${a}`);
+    </script> -->
+    <center>
+        <h1 style="align-items: center; color: green; font-size: 35px; font-family: Arial;"> 
+        <form>
+            <label>
+                <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME" style="align-items: center;padding : 10px; color: green; font-size: 15px; font-family: Arial;">
+            </label>
+            <br>
+            <label>
+                <input type="text" name="age" id="age" placeholder="ENTER YOUR AGE" style="align-items: center;padding : 10px; color: green; font-size: 15px; font-family: Arial;">
+            </label>
+            <br>
+            <label style="align-items: center; color: green; font-size: 35px; font-family: Arial;">
+                <input type="submit" value="Submit" onclick="updateAge()" style="align-items: center; color: rgb(68, 68, 68);width: 180px ; margin-top:10px; font-size: 20px; font-family: Arial;">
+            </label>
+        </form>
+<div style="align-items: center; color: green; font-size: 35px; font-family: Arial;">
+    <script style="align-items: center; color: green; font-size: 35px; font-family: Arial;">
+        function updateAge(){
+        let name = document.getElementById('name').value;
+        let age = document.getElementById('age').value;
+        if (age > 18) {
+            document.write(`I am ${name}, my age is ${age} years old`);
+            console.log(`I am ${name}, my age is ${age} years old`);
+        } else {
+            document.write(`You are not eligible as your age is ${age}`);
+            console.log(`You are not eligible as your age is ${age}`);
+        }
+
+    }
+        </script>
+    </div>
+</h1>
+</center>
+</body>
+</html>
