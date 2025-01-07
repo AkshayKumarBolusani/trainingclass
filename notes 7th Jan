@@ -1,0 +1,108 @@
+Training class - 1
+
+Firebase
+Netlify
+Git and GitHub
+Git-lab
+Bit-bucket
+
+Day 2 - 3rd Jan, 2025
+￼
+
+Day 3 - 4th Jan, 2025
+
+- React Native is used to develope Mobile Application.
+- Electron.js is used to develope desktop application.
+- ReactJS is used to develope Web Application
+
+- [ ] What is Java Script?
+	JS is a high level programming language. It is used convert static page into dynamic page.
+
+- [ ] Primitive Data types:
+    - Number : Integers, Flat
+    - String : Stream of characters that are enclosed in quotes.
+    - Boolean : True or false
+    - Undefined :  declared variable with No values
+    - Null : Empty values or no values
+    - Bigint
+    - 
+- [ ] Non Primitive Data types:
+        - Object
+        - Class
+        - Array
+        - Functions
+        - Maps
+        - Sets
+
+Variable is block to store data. In JS variables are dynamic in nature.
+
+In java variables are static.  Scopes:
+- Global
+- Local/Script
+- Block
+
+Variables:
+- Var
+- Let
+- Const
+1. Case sensitive
+2. Start with letters , _ , $
+3. Cant start with numbers
+4. Reserved words (Keywords)
+5.  Reassigning variables:
+    1. Var fav = “ramya”
+    2. fav = "sathvik”
+    3. fav = "dummy”
+    4. document.write()
+    5. console.log(fav)
+6. Reassigned with let is also accepted
+7. Reassigning with const is not accepted
+8. Redeclaring with VAR:
+    1. var a = 1
+    2. var a = 10
+    3. document.write(a+a)
+    4. console.log(a+a)
+9. Redeclaring with LET is not accepted
+10. Redeclaring with CONST is not acceptable 
+
+Block Scope:
+- Variables declared with var dont have block scope.
+
+Condition: An expression that evaluates that result(TRUE or FALSE)
+console.log(4<5)
+
+Conditional Statement: To make the set of insructions execute when the only is TRUE.
+
+Block of code: Executes when the specific condition is TRUE.
+
+Indentation: {
+						—block of code
+				}
+
+If: only possible
+elseif: #
+elseif: #
+else: #
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
